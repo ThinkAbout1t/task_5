@@ -39,7 +39,7 @@ namespace Task_5
                 catch (FormatException)
                 {
                     Console.WriteLine($"Некоректні дані у файлі");
-                    Environment.Exit(0);
+                    Environment.Exit(1);
                 }
             }
             return newArr;
